@@ -1,10 +1,10 @@
 # Build settings
-permalink   : /blog/:title/
+permalink   : /:title/
 markdown    : kramdown
 highlighter : pygments
 
 paginate: 3
-paginate_path: "/blog/page/:num/"
+paginate_path: "/page/:num/"
 comments: true
 
 source: source
