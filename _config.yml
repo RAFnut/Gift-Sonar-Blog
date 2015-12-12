@@ -1,10 +1,10 @@
 # Build settings
-permalink   : /:year/:title/
+permalink   : /blog/:title/
 markdown    : kramdown
 highlighter : pygments
 
 paginate: 3
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 comments: true
 
 source: source
@@ -17,7 +17,7 @@ sass:
 title: Gift Sonar
 description: "Awesome gift ideas"
 keywords: "gift, gifts, cool gifts"
-url: http://blog.giftsonar.com
+url: http://www.giftsonar.com
 baseurl: ""
 # baseurl: ""
 
@@ -29,7 +29,7 @@ disqus_shortname: "fernandomoreira"
 navbar:
   - url: http://www.giftsonar.com
     title: Gift ideas generator
-  - url: "#"
+  - url: "http://www.giftsonar.com/blog"
     title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
