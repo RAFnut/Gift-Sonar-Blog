@@ -18,7 +18,7 @@ title: Gift Sonar
 description: "Awesome gift ideas"
 keywords: "gift, gifts, cool gifts"
 url: http://www.giftsonar.com
-baseurl: ""
+baseurl: "/blog"
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
