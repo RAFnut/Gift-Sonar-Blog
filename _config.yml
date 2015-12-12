@@ -22,31 +22,14 @@ baseurl: ""
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
-repo: http://www.giftsonar.com
+main_site: http://www.giftsonar.com
 disqus_shortname: "fernandomoreira"
 
-# Author settings
-# author:
-#   name      : Fernando Moreira
-#   job       : Frontend Engineer
-#   bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-#   thumb     : /images/author.jpg
-#   email     : nandomoreira.me@gmail.com
-#   url       : http://nandomoreira.me
-#   github    : http://github.com/nandomoreirame
-#   twitter   : http://twitter.com/nandomoreirame
-#   facebook  : http://facebook.com/fernando.dev
-#   linkedin  : http://linkedin.com/in/nandomoreirame
-
 # navbar pages
-# navbar:
-#   - slug: about
-#     title: About
-#   # - slug: resume
-#   #   title: Resume
-#   # - slug: skills
-#   #   title: Skills
-#   - slug: blog
-#     title: Blog
+navbar:
+  - url: http://www.giftsonar.com
+    title: Gift ideas generator
+  - url: "#"
+    title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
